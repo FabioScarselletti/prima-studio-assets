@@ -1,0 +1,60 @@
+body { 
+  font-family: 'Helvetica Neue', sans-serif; 
+  margin: 0; 
+  background: #ffffff; 
+  color: #808080; 
+} 
+
+header.hero { 
+  background: url('hero-bg.jpg') center/cover no-repeat; 
+  text-align: center; 
+  padding: 5rem 2rem; 
+} 
+
+nav { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+} 
+nav h1 { 
+  color: gold; 
+  font-family: 'Garamond', serif; 
+} 
+nav ul { 
+  list-style: none; 
+  display: flex; 
+  gap: 1rem; 
+} 
+nav a { 
+  color: #f5f5f5; 
+  text-decoration: none; 
+} 
+.hero-text h2 { 
+  font-size: 2.5rem; 
+  color: gold; 
+} 
+.cta { 
+  background: gold; 
+  color: #111; 
+  padding: 0.8rem 1.2rem; 
+  text-decoration: none; 
+  border-radius: 5px; 
+} 
+.service-grid, .portfolio-grid { 
+  display: flex; 
+  gap: 2rem; 
+  justify-content: center; 
+  padding: 2rem; 
+} 
+.service-card, .portfolio-item { 
+  background: #222; 
+  padding: 1rem; 
+  border: 1px solid gold; 
+  text-align: center; 
+} 
+form { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 1rem; 
+  max-width: 400px; 
+  margin: auto; }
